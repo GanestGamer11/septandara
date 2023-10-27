@@ -429,7 +429,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #6C2BED;;
+    color: #9546b3;;
   }
 
   .navbar .dropdown ul a i {
@@ -500,7 +500,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #7802a3a2;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -546,7 +546,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #7802a3a2;
   }
 
   .navbar .dropdown ul,
@@ -599,7 +599,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: #410457bd;
     z-index: 9996;
   }
 }
@@ -856,7 +856,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid #9546b3;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -997,7 +997,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #8e65e2;
+  background: #a75ec4;
 }
 
 .services .service-item:hover h3 {
@@ -1294,7 +1294,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #7802a3a2;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1964,7 +1964,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #9546b3;
+  background: #9546b3; 
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1996,7 +1996,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #4E24A2;
+  background: #8b2db1;
 }
 
 .hero .icon-box:hover .title a,
