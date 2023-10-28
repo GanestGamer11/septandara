@@ -20,7 +20,7 @@
   /* Colors */
   :root {
     --color-default: #222222;
-    --color-primary: #00A3FF;
+    --color-primary: #00a2ff;
     --color-secondary: #f85a40;
   }
   
@@ -28,6 +28,11 @@
   :root {
     scroll-behavior: smooth;
   }
+
+  #rei-geo{
+    font-family: var(--font-primary);
+  }
+
   
   /*--------------------------------------------------------------
   # General
@@ -107,6 +112,10 @@
     min-height: 20vh;
     position: relative;
     background-color: var(--color-primary);
+    background-image: url("../img/reino-geo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .breadcrumbs .page-header h2 {

@@ -20,8 +20,8 @@
   /* Colors */
   :root {
     --color-default: #222222;
-    --color-primary: #FF6100;
-    --color-secondary: #FFBF00;
+    --color-primary: #df5500;
+    --color-secondary: #a84100;
   }
   
   /* Smooth scroll behavior */
@@ -29,6 +29,10 @@
     scroll-behavior: smooth;
   }
   
+  #rei-alg{
+    font-family: var(--font-primary);
+  }
+
   /*--------------------------------------------------------------
   # General
   --------------------------------------------------------------*/
@@ -107,6 +111,10 @@
     min-height: 20vh;
     position: relative;
     background-color: var(--color-primary);
+    background-image: url("../img/reino-alg.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .breadcrumbs .page-header h2 {

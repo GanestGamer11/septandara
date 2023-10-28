@@ -20,13 +20,17 @@
   /* Colors */
   :root {
     --color-default: #222222;
-    --color-primary: #FFBF00;
-    --color-secondary: #f85a40;
+    --color-primary: #2cad3d;
+    --color-secondary: #0f721c;
   }
   
   /* Smooth scroll behavior */
   :root {
     scroll-behavior: smooth;
+  }
+
+  #rei-num{
+    font-family: var(--font-primary);
   }
   
   /*--------------------------------------------------------------
@@ -107,6 +111,10 @@
     min-height: 20vh;
     position: relative;
     background-color: var(--color-primary);
+    background-image: url("../img/reino-num.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .breadcrumbs .page-header h2 {
@@ -428,7 +436,7 @@
       font-size: 15px;
       text-transform: none;
       font-weight: 600;
-      color: #FFBF00;
+      color: #2cad3d;
     }
   
     .navbar .dropdown ul a i {
@@ -1044,7 +1052,7 @@
   }
   
   .testimonials .testimonial-item .stars i {
-    color: #ffc107;
+    color: #35a845;
     margin: 0 1px;
   }
   

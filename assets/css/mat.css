@@ -111,6 +111,10 @@
     min-height: 20vh;
     position: relative;
     background-color: var(--color-primary);
+    background-image: url("../img/reino-mat.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .breadcrumbs .page-header h2 {
