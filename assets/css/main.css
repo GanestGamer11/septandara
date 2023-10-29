@@ -500,7 +500,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #7802a3a2;
+    background: #66028a;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -556,8 +556,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #4E24A2;
-    border: 1px solid #4E24A2;
+    background-color: #52036e;
+    border: 1px solid #52036e;
   }
 
   .navbar .dropdown>.dropdown-active,

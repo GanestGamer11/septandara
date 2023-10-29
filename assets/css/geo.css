@@ -21,7 +21,7 @@
   :root {
     --color-default: #222222;
     --color-primary: #00a2ff;
-    --color-secondary: #f85a40;
+    --color-secondary: #0374b6;
   }
   
   /* Smooth scroll behavior */
@@ -247,7 +247,7 @@
   # Header
   --------------------------------------------------------------*/
   .topbar {
-    background: #00796b;
+    background: #00a2ff;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -508,7 +508,7 @@
       inset: 0;
       padding: 50px 0 10px 0;
       margin: 0;
-      background: rgba(0, 131, 116, 0.9);
+      background: #0290e2;
       overflow-y: auto;
       transition: 0.3s;
       z-index: 9998;
@@ -554,7 +554,7 @@
     .navbar .getstarted:hover,
     .navbar .getstarted:focus:hover {
       color: #fff;
-      background: rgba(0, 131, 116, 0.8);
+      background:#00a2ffc0;
     }
   
     .navbar .dropdown ul,
@@ -564,8 +564,8 @@
       padding: 10px 0;
       margin: 10px 20px;
       transition: all 0.5s ease-in-out;
-      background-color: #007466;
-      border: 1px solid #006459;
+      background-color: #0374b6;
+      border: 1px solid #0374b6;
     }
   
     .navbar .dropdown>.dropdown-active,
@@ -607,7 +607,7 @@
       content: "";
       position: fixed;
       inset: 0;
-      background: rgba(0, 106, 93, 0.8);
+      background: #00a2ffb6;
       z-index: 9996;
     }
   }
