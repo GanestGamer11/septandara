@@ -32,6 +32,10 @@
   #rei-num{
     font-family: var(--font-primary);
   }
+
+  .text-justify{
+    text-align: justify;
+  }
   
   /*--------------------------------------------------------------
   # General
