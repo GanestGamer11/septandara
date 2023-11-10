@@ -3,9 +3,11 @@
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     //faço a conexão com sqlite e tauz
     $caminho = "database.sqlite";
-
     $db = new SQLite3($caminho);
 
+    //carrego as variaveis
+    //insiro na tabela
+    
     // Exemplo de consulta SELECT
     $query = "SELECT * FROM sua_tabela";
     $result = $db->query($query);
