@@ -30,6 +30,23 @@
   scroll-behavior: smooth;
 }
 
+#contato{
+  font-family: var(--font-primary);
+}
+
+.enviar{
+  font-family: var(--font-primary);
+  background-color: var(--color-primary);
+  padding: 7px 20px;
+  border-radius: 50px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-family: var(--font-primary);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -55,6 +72,11 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+}
+
+.pergunta{
+  font-family: var(--font-default);
+  font-size: 15pt;
 }
 
 /*--------------------------------------------------------------
