@@ -46,7 +46,10 @@
   font-size: 15px;
   letter-spacing: 1px;
 }
-
+.enviar:hover{
+  background-color:  #610185;
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -78,7 +81,13 @@ h6 {
   font-family: var(--font-default);
   font-size: 15pt;
 }
-
+#inp{
+  border-radius: 15px;
+  border: solid 1px var(--color-primary);
+  font-family: var(--font-default);
+  outline: none;
+  padding-left: 10px;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/

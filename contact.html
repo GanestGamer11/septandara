@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -105,27 +104,61 @@
               <form action="contact.php" method="post">
 
                 <h2 class="pergunta">1 - Você compreendeu a utilidade de nosso site?</h2>
-                <input style="border: 1px solid black" class="form-check-input" type="checkbox"><span> Sim</span>
+                <input name="q1c1" value="sim" style="border: 1px solid #7802a3;" class="form-check-input" type="radio"><span> Sim</span>
                 <br>
-                <input style="border: 1px solid black" class="form-check-input" type="checkbox"><span> Não</span>
+                <input name="q1c1" value="nao" style="border: 1px solid #7802a3" class="form-check-input" type="radio"><span> Não</span>
                 <br>
                 <br>
 
-                <h2 class="pergunta">2 - Se sim, qual seria segundo a sua visão?</h2>
-                <input style="border: 1px solid black" class="form-check-input" type="checkbox"><span> Apresentar o jogo (As Aventuras de Dandara)</span>
+                <h2 class="pergunta">2 - Se sim, qual seria a utilidade de nosso site segundo a sua visão?</h2>
+                <input name="q2c1" value="1" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Apresentar o jogo (As Aventuras de Dandara)</span>
                 <br>
-                <input style="border: 1px solid black" class="form-check-input" type="checkbox"><span> Mostrar os reinos do jogo</span>
+                <input name="q2c2" value="2" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Mostrar os reinos do jogo</span>
                 <br>
-                <input style="border: 1px solid black" class="form-check-input" type="checkbox"><span> Mostrar os personagens do jogo</span>
+                <input name="q2c3" value="3" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Mostrar os personagens do jogo</span>
+                <br>
+                <br>
+                <h2 class="pergunta">3 - Se não, qual você acha que seria a utilidade de nosso site?</h2>
+                <input name="q3i" id="inp" class="input-group mb-3" type="">
+                <br>
+                <h2 class="pergunta">4 - Ao acessar o nosso site, quais desses fatores você apontaria como característica POSITIVA:
+                </h2>
+                <input name="q4c1" value="1" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Não vi características positivas</span>
+                <br>
+                <input name="q4c2" value="2" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Organizado</span>
+                <br>
+                <input name="q4c3" value="3" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Paleta de cores</span>
+                <br>
+                <input name="q4c4" value="4" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> O site é harmônico</span>
+                <br>
+                <input name="q4c5" value="5" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Contraste das cores e tipografia</span>
+                <br>
+                <input name="q4c6" value="6" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Confortável para usar</span>
+                <br>
+                <br>
+                <h2 class="pergunta">5 - Ao acessar o nosso site, quais desses fatores você apontaria como característica NEGATIVA:
+                </h2>
+                <input name="q5c1" value="1" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Não vi características negativas</span>
+                <br>
+                <input name="q5c2" value="2" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Falta de organização</span>
+                <br>
+                <input name="q5c3" value="3" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Paleta de cores</span>
+                <br>
+                <input name="q5c4" value="4" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Falta de harmonia no site</span>
+                <br>
+                <input name="q5c5" value="5" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Falta de contraste das cores e tipografia</span>
+                <br>
+                <input name="q5c6" value="6" style="border: 1px solid #7802a3" class="form-check-input" type="checkbox"><span> Não é confortável de usar</span>
+                <br>
+                <br>
+                <h2 class="pergunta">6 - Deixe sua opinião sobre o sistema, fique à vontade para deixar uma sugestão, crítica ou elogio</h2>
+                <input name="q6i" id="inp" class="input-group mb-3" type="">
                 <br>
                 <br>
                 
                 <button class="enviar" class="btn-get-started">Enviar</button>
                 
-
-            </form>
-
-
+              </form>
 
             </article><!-- End blog post -->
           </div>
@@ -163,8 +196,6 @@
           </ul>
         </div>
 
-
-
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>IFRN Campus Caicó          </h4>
           <p>
@@ -195,7 +226,6 @@
   <!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
@@ -211,5 +241,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
